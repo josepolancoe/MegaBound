@@ -54,7 +54,7 @@ module.exports = class Room {
         this.is_s1_disabled = 0;
         this.is_tele_disabled = 0;
         this.is_random_teams = 0;
-        this.is_avatars_on = 1;
+        this.is_avatars_on = 0;
         this.is_dual_plus_disabled = 0;
         this.player_count = 0;
 

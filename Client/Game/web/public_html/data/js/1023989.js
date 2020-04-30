@@ -22492,7 +22492,7 @@ var io = "undefined" == typeof module ? {} : module.exports;
                     c.length; e++) {
                     var f = c[e],
                         h = !1;
-                    3 == f.length && f[2] == CHAT_TYPE_GM_BUGLE && "" == f[0] && "" == f[1] && (h = !0, f[0] = g_is_facebook_canvas ? 'MegaBound - <a href="//www.facebook.com/100044991850916" target="_blank">' + l.t("Facebook Page") + '</a> | <a href="//#" target="_blank">' + l.t("Facebook Group") + "</a> " : 'MegaBound - <a href="//www.facebook.com/100044991850916" target="_blank">' + l.t("News") + '</a> | <a href="#" target="_blank">' + l.t("Forums") + '</a> | <a href="www.facebook.com/100044991850916" target="_blank">' +
+                    3 == f.length && f[2] == CHAT_TYPE_GM_BUGLE && "" == f[0] && "" == f[1] && (h = !0, f[0] = g_is_facebook_canvas ? 'MegaBound - <a href="https://www.facebook.com/josepolancoe" target="_blank">' + l.t("Facebook Page") + '</a> | <a href="//#" target="_blank">' + l.t("Facebook Group") + "</a> " : 'MegaBound - <a href="https://www.facebook.com/josepolancoe" target="_blank">' + l.t("News") + '</a> | <a href="#" target="_blank">' + l.t("Forums") + '</a> | <a href="https://www.facebook.com/josepolancoe" target="_blank">' +
                         l.t("Facebook Group") + '</a> | <a href="https://www.youtube.com/channel/UCsz-zjxkcGyfUoaKqZaM_IQ?view_as=subscriber" target="_blank">' + l.t("YouTube") + "</a>");
                     ChatReceived(f[0], f[1], f[2], f[3], GUI_LOCATION_CHANNEL, d, h)
                 }
@@ -25600,11 +25600,10 @@ var io = "undefined" == typeof module ? {} : module.exports;
     function ShowContact() {
         $(".ranking_btn").removeClass("selected");
         $("#ranking_btn_contact").addClass("selected");
-        var a = '<br><div class="ContactTitle"> ' + l.t("COMPANY EMAILS") + ' </div><div class="ContactName">' + l.t("Community") + ':</div><div class="ContactFB"><a href="mailto:thegreatestjg@gmail.com">thegreatestjg@gmail.com</a></div><div class="ContactLang">(' + l.t("English / Spanish") + ')</div><br><div class="ContactName">' + l.t("Business Relations") + ':</div><div class="ContactFB"><a href="mailto:thegreatestjg@gmail.com">thegreatestjg@gmail.com</a></div><div class="ContactLang">(' + l.t("COMPANIES ONLY, IN ENGLISH") +
-            ')</div><div class="ContactTitle"> ' + l.t("GM LIST") + " </div>",
+        var a = '<br><div class="ContactTitle"> ' + l.t("COMPANY EMAILS") + ' </div><div class="ContactName">' + l.t("Community") + ':</div><div class="ContactFB"><a href="mailto:josepolancog20@gmail.com">josepolancog20@gmail.com</a></div><div class="ContactLang">(' + l.t("English / Spanish") + ')</div><br><div class="ContactTitle"> ' + l.t("GM LIST") + " </div>",
             b;
         b = [
-            ["lnferno", "100044991850916", "Spanish, English,<br> Portuguese, German"]
+            ["Polanco", "100044991850916", "Spanish, English"]
         ];
         for (var c = 0; c < b.length; c++) var d =
             b[c][2],

@@ -173,6 +173,20 @@ module.exports = class Commands {
                                             }
                                             break;
                                         }
+                                        case '/send':
+                                            {
+                                                if (data[1] !== null && data[1].length > 0) {
+                                                    cash1.db.connection.getConnection().then(conn => {
+                                                        conn.query("SELECT IdAcc, game_id, gender, rank, gp, cash, gold, win, loss FROM users where game_id='"+ data[1] +"' ", function(err, result, fields){
+                                                            console.log(result);
+                                                            self.gameserver.pushBroadcast(new Message.chatResponse(self.account,  JSON.stringify(result) , Types.CHAT_TYPE.SYSTEM));
+                                                        }).then(rows => {
+                                                                conn.release();                                       
+                                                            });
+                                                    });
+                                                }
+                                                break;
+                                            }
                                     case '/time':
                                         {
                                             if (self.account.player.gm === 1) {

@@ -56,7 +56,7 @@ module.exports = class GameServer {
         var data = self.chathistory.slice(0);
         data.push(["", "", 9]);
         if (self.evento200) {
-          data.push(["Evento 200% GP 24h - Desarrollado por Polanco", "", 6]);
+          data.push(["Evento 400% GP 24h - Desarrollado por Polanco", "", 6]);
           data.push(["Si deseas ser un GM debes traer amigos al juego", "", 6]);
 		     //data.push(["Para ver los avatares comprados, debes de salir y volver a entrar a la tienda", "", 6]);
         }
