@@ -172,7 +172,7 @@ var db = [
     ],
     //inicio rares gms
 	[42863, 0, 0, 2, "mh42862", "GM Betax", {
-            "min_rank": 25,
+            "min_rank": 26,
             "note": 4,
             "gold_week": 0,
             "gold_month": 0,
@@ -195,7 +195,7 @@ var db = [
         ],0
     ],
 	[42862, 0, 1, 2, "mb42862", "GM Betax", {
-            "min_rank": 25,
+            "min_rank": 26,
             "note": 4,
             "gold_week": 0,
             "gold_month": 0,
@@ -218,7 +218,7 @@ var db = [
         ],0
     ],
     [812, 0, 2, 2, "ag03345", "GM Sign", {
-            "min_rank": 25,
+            "min_rank": 26,
             "note": 4,
             "gold_week": 0,
             "gold_month": 0,
@@ -875,7 +875,7 @@ var db = [
     ],
 	[42865, 42865, 4, 2, "bg42865", "(RARE) Street Figther", 
 		{
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 2,
             "gold_week": 0,
             "gold_month": 0,
@@ -899,7 +899,7 @@ var db = [
     ],
     [20, 20, 0, 2, "mh00020", "OSO (RARE)",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -944,7 +944,7 @@ var db = [
     ],
     [19, 19, 1, 2, "mb00019", "OSO (RARE)",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1074,7 +1074,7 @@ var db = [
     ],
     [149, 149, 1, 0, "mb00147",
         "(RARE) Easter Bunny", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1108,7 +1108,7 @@ var db = [
     ],
     [150, 150, 0, 0, "mh00147",
         "(RARE) Easter Bunny", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1153,7 +1153,7 @@ var db = [
     ],
     [151, 151, 1, 1, "fb00147",
         "(RARE) Easter Bunny", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1187,7 +1187,7 @@ var db = [
     ],
     [152, 152, 0, 1, "fh00151",
         "(RARE) Easter Bunny", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1232,7 +1232,7 @@ var db = [
     ],
     [3405, 3405, 3, 2, "af03405",
         "(RARE) Tournament Gold", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1277,7 +1277,7 @@ var db = [
     ],
     [3406, 3406, 3, 2, "af03406",
         "(RARE) Tournament Silver", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1322,7 +1322,7 @@ var db = [
     ],
     [3407, 3407, 3, 2, "af03407",
         "(RARE) Tournament Bronze", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1577,7 +1577,7 @@ var db = [
     ],
     [3844, 3844, 0, 2, "mh03844", "Cua Cua",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1622,7 +1622,7 @@ var db = [
     ],
     [3845, 3845, 1, 2, "mb03834", "Cua Cua",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1874,7 +1874,7 @@ var db = [
         ]
     ],
     [285, 0, 0, 2, "mh00285", "GM DB", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1918,7 +1918,7 @@ var db = [
         ]
     ],
     [286, 0, 1, 2, "mb00285", "GM DB", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1951,7 +1951,7 @@ var db = [
         ]
     ],
     [405, 0, 2, 2, "mf00405", "GM DB", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2352,7 +2352,7 @@ var db = [
     ],
     [876, 0, 0, 2, "mh03409", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2376,7 +2376,7 @@ var db = [
     ],
     [877, 0, 0, 2, "fh03410", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2400,7 +2400,7 @@ var db = [
     ],
     [878, 0, 1, 2, "ab03411", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2424,7 +2424,7 @@ var db = [
     ],
     [879, 0, 2, 2, "ag03412", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2448,7 +2448,7 @@ var db = [
     ],
     [880, 0, 3, 2, "af03413", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2472,7 +2472,7 @@ var db = [
     ],
     [881, 0, 3, 2, "af03414", "Astronaut",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2496,7 +2496,7 @@ var db = [
     ],
     [882, 0, 0, 2, "mh03415", "Designer",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2520,7 +2520,7 @@ var db = [
     ],
     [883, 0, 1, 2, "mb03416", "Designer",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2544,7 +2544,7 @@ var db = [
     ],
     [884, 0, 2, 2, "af03417", "Designer",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -2712,7 +2712,7 @@ var db = [
     ],
     [120, 120, 0, 0, "mh00120",
         "Invisible (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -2758,7 +2758,7 @@ var db = [
 
     [632, 632, 0, 2, "mh00632",
         "DN (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -2803,7 +2803,7 @@ var db = [
     ],
     [3092, 3092, 0, 0, "mh03092",
         "Ash (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -2848,7 +2848,7 @@ var db = [
     ],
     [4012, 4012, 0, 2, "ah04012",
         "Pikachu (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -2893,7 +2893,7 @@ var db = [
     ],
     [1183, 3705, 0, 0, "mh03705",
         "Xmas Hat (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 277000,
             "gold_month": 0,
@@ -2938,7 +2938,7 @@ var db = [
     ],
     [1180, 3702, 0, 2, "ah03702",
         "Rudolf Xmas (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 244000,
             "gold_month": 0,
@@ -2978,7 +2978,7 @@ var db = [
     ],
     [1179, 3701, 0, 2, "ah03701",
         "Snowman Xmas (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 299000,
             "gold_month": 0,
@@ -3024,7 +3024,7 @@ var db = [
     [1014, 3544, 0, 0, "mh03544",
         "Santa Claus DB 2013 (RARE)",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -3205,7 +3205,7 @@ var db = [
     ],
     [194, 148, 0, 0, "mh00148",
         "(RARE) Celestial Warrior", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -3390,7 +3390,7 @@ var db = [
     ],
     [187, 141, 0, 0, "mh00141",
         "(RARE) Valentine 2006", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -3495,7 +3495,7 @@ var db = [
     ],
     [184, 138, 0, 0, "mh00138",
         "(RARE) Fish Warrior", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -5273,7 +5273,7 @@ var db = [
     ],
     [17, 50, 0, 0, "mh00050",
         "(RARE) Clown Costume", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -5604,7 +5604,7 @@ var db = [
     ],
     [6, 12, 0, 0, "mh00012",
         "(RARE) Soccer Hat", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -9208,7 +9208,7 @@ var db = [
     ],
     [1189, 3711, 0, 1, "fh03711",
         "Xmas Hat (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 277000,
             "gold_month": 0,
@@ -9253,7 +9253,7 @@ var db = [
     ],
     [1016, 3546, 0, 1, "fh03546",
         "Mrs Claus DB 2013 (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -9345,7 +9345,7 @@ var db = [
     ],
     [265, 122, 0, 1, "fh00122",
         "(RARE) DragonBound 2", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -9580,7 +9580,7 @@ var db = [
     ],
     [257, 142, 0, 1, "fh00142",
         "(RARE) Fish Warrior", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -10164,7 +10164,7 @@ var db = [
     ],
     [242, 121, 0, 1, "fh00121",
         "(RARE) DragonBound 1", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -11553,7 +11553,7 @@ var db = [
     ],
     [203, 13, 0, 1, "fh00013",
         "(RARE) Soccer Hat", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -11845,7 +11845,7 @@ var db = [
     ],
     [40, 52, 0, 1, "fh00052",
         "(RARE) Clown Costume", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -13956,7 +13956,7 @@ var db = [
     ],
     [119, 119, 1, 0, "mb00119",
         "Invisible (Rare)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -13991,7 +13991,7 @@ var db = [
 
     [22222, 632, 1, 2, "mb00632",
         "DN (Rare)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -14025,7 +14025,7 @@ var db = [
     ],
     [3093, 3093, 1, 0, "mb03093",
         "Ash (Rare)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -14059,7 +14059,7 @@ var db = [
     ],
     [4015, 4015, 1, 2, "ab04015",
         "Pikachu Body (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -14103,7 +14103,7 @@ var db = [
     ],
     [1200, 3722, 1, 2, "ab03722",
         "Xmas Body (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 99000,
             "gold_month": 0,
@@ -14127,7 +14127,7 @@ var db = [
     ],
     [1196, 3718, 1, 2, "ab03718",
         "Rudolf Xmas (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 244000,
             "gold_month": 0,
@@ -14153,7 +14153,7 @@ var db = [
     ],
     [1194, 3716, 1, 0, "mb03716",
         "Snowman Xmas (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 211000,
             "gold_month": 0,
@@ -14185,7 +14185,7 @@ var db = [
     [1015, 3545, 1, 0, "mb03545",
         "Santa Claus DB 2013 (RARE)",
         {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -14284,7 +14284,7 @@ var db = [
     ],
     [323, 141, 1, 0, "mb00141",
         "(RARE) Valentine 2006", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -14361,7 +14361,7 @@ var db = [
     ],
     [320, 138, 1, 0, "mb00138",
         "(RARE) Fish Warrior", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -15829,7 +15829,7 @@ var db = [
     ],
     [31, 48, 1, 0, "mb00048",
         "(RARE) Clown Costume", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -19016,7 +19016,7 @@ var db = [
     ],
     [1205, 3727, 1, 1, "fb03727",
         "Snowman Xmas (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 211000,
             "gold_month": 0,
@@ -19047,7 +19047,7 @@ var db = [
     ],
     [1017, 3547, 1, 1, "fb03547",
         "Mrs Claus DB 2013 (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -19251,7 +19251,7 @@ var db = [
     ],
     [376, 138, 1, 1, "fb00138",
         "(RARE) Fish Warrior", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -20703,7 +20703,7 @@ var db = [
     ],
     [48, 50, 1, 1, "fb00050",
         "(RARE) Clown Costume", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -22388,7 +22388,7 @@ var db = [
     ],
     [3691, 3691, 2, 2, "mg03691",
         "DN (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -22455,7 +22455,7 @@ var db = [
     ],
     [1018, 3548, 2, 2, "ag03548",
         "Xmas 2013 (S.RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -22889,7 +22889,7 @@ var db = [
     ],
     [78, 64, 2, 0, "mg00064",
         "(RARE) Candle Stick", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -23535,7 +23535,7 @@ var db = [
     ],
     [60, 19, 2, 0, "mg00019",
         "(RARE) Orbiting Moon", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -26320,7 +26320,7 @@ var db = [
     ],
     [102, 62, 2, 1, "fg00062",
         "(RARE) Inca Bird", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -26347,7 +26347,7 @@ var db = [
     ],
     [101, 64, 2, 1, "fg00064",
         "(RARE) Candle Stick", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -26926,7 +26926,7 @@ var db = [
     ],
     [99919, 19, 2, 1, "fg00019",
         "(RARE) Orbiting Moon", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27269,7 +27269,7 @@ var db = [
     ],
     [1138, 3660, 3, 2, "af03660",
         "Xmas 2015 (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27303,7 +27303,7 @@ var db = [
     ],
     [1111, 3633, 3, 2, "af03633",
         "Xmas 2014 (RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27335,7 +27335,7 @@ var db = [
     ],
     [1019, 2999, 3, 2, "af02999",
         "Xmas 2013 (S.RARE)", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27520,7 +27520,7 @@ var db = [
     ],
     [135, 163, 3, 0, "mf00163",
         "(RARE) Lucky", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27681,7 +27681,7 @@ var db = [
     ],
     [126, 95, 3, 0, "mf00095",
         "(RARE) Peacock", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -27820,7 +27820,7 @@ var db = [
     ],
     [118, 74, 3, 0, "mf00074",
         "(VERY RARE) WOWLG", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
@@ -32286,7 +32286,7 @@ var db = [
     ],
     [395, 4818, 4, 2, "b204818",
         "(RARE) Igloo", {
-            "min_rank": 0,
+            "min_rank": 26,
             "note": 0,
             "gold_week": 0,
             "gold_month": 0,
