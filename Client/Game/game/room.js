@@ -89,8 +89,9 @@ module.exports = class Room {
         if (msj.length > maxlng)
             return null;
         var type = Types.CHAT_TYPE.NORMAL;
-        // if (account.player.guild_job === 1)
-        //     type = Types.CHAT_TYPE.POWER_USER;
+        //LIDERES DE CLAN HABLARAN COMO POWER
+        if (account.player.guild_job === 1)
+            type = Types.CHAT_TYPE.POWER_USER;
         if (account.player.gm === 1)
             type = Types.CHAT_TYPE.GM;
         self.gameserver.pushBroadcastChat(new Message.chatResponse(account, msj, type), self);
