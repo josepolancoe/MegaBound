@@ -20,7 +20,7 @@ module.exports = class World {
 
         this.chat_complete = false;
 
-        this.gp_kill = 16;
+        this.kill = 16;
         this.gold_kill = 1000;
 
         this.gold_good = 100;
@@ -41,7 +41,7 @@ module.exports = class World {
         }
 
         if (this.game.room.game_mode === Types.GAME_MODE.BOSS) {
-            this.gp_kill = (8*2);
+            this.gp_kill = (8*3);
             this.gold_kill = (500*2);
 
             this.gold_good = (100*2);

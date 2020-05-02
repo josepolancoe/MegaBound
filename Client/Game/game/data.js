@@ -873,6 +873,30 @@ var db = [
             [187,77,0,0],3
         ]
     ],
+	[42865, 42865, 4, 2, "bg42865", "(RARE) Street Figther", 
+		{
+            "min_rank": 0,
+            "note": 2,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 30000,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [187,77,0,0],12
+        ]
+    ],
     [20, 20, 0, 2, "mh00020", "OSO (RARE)",
         {
             "min_rank": 0,
@@ -1850,7 +1874,7 @@ var db = [
         ]
     ],
     [285, 0, 0, 2, "mh00285", "GM DB", {
-            "min_rank": 26,
+            "min_rank": 0,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1894,7 +1918,7 @@ var db = [
         ]
     ],
     [286, 0, 1, 2, "mb00285", "GM DB", {
-            "min_rank": 26,
+            "min_rank": 0,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -1927,7 +1951,7 @@ var db = [
         ]
     ],
     [405, 0, 2, 2, "mf00405", "GM DB", {
-            "min_rank": 26,
+            "min_rank": 0,
             "note": 1,
             "gold_week": 0,
             "gold_month": 0,
@@ -36666,76 +36690,6 @@ var db = [
         [
             [120, 73, 0, 0]
         ]
-    ],
-    [1066, 1066, 3, 2, "af03098",
-        "Charmander", {
-            "min_rank": 26,
-            "note": 0,
-            "gold_week": 0,
-            "gold_month": 0,
-            "gold_perm": 0,
-            "cash_week": 0,
-            "cash_month": 0,
-            "cash_perm": 20000,
-            "stat_pop": 0,
-            "stat_time": 0,
-            "stat_atk": 0,
-            "stat_def": 0,
-            "stat_life": 0,
-            "stat_item": 0,
-            "stat_dig": 0,
-            "stat_shld": 0,
-            "remove_time": 0
-        },
-        [
-            // [0, 49, -17, 62],
-            // [37, 53, -17, 64],
-            // [35, 54, -18, 64],
-            // [27, 53, -23, 61],
-            // [37, 53, -18, 59],
-            // [25, 54, -25, 58],
-            // [35, 52, -25, 49]
-			[73, 79, 18, 57], 1, 
-			[73, 80, 18, 57],
-            [73, 79, 18, 56], 1, 
-			[73, 80, 18, 56], 1, 
-			[73, 81, 18, 56],
-            [74, 81, 19, 56],
-            [74, 80, 19, 55],
-            [73, 81, 19, 55],
-            [73, 81, 19, 56],
-            [74, 80, 19, 55],
-            [74, 78, 19, 55],
-            [73, 79, 18, 56],
-            [73, 78, 18, 56], 2, 
-			[73, 77, 18, 56], 1, 
-			[73, 78, 18, 57],
-            [73, 77, 18, 57]
-        ],
-    //inicio rares gms 5 a 100
-    [1067, 1067, 3, 2, "ag00005", "GM Sing", {
-            "min_rank": 25,
-            "note": 4,
-            "gold_week": 0,
-            "gold_month": 0,
-            "gold_perm": 0,
-            "cash_week": 0,
-            "cash_month": 0,
-            "cash_perm": 9999,
-            "stat_pop": 0,
-            "stat_time": 0,
-            "stat_atk": 0,
-            "stat_def": 0,
-            "stat_life": 0,
-            "stat_item": 0,
-            "stat_dig": 0,
-            "stat_shld": 0,
-            "remove_time": 1203
-        },
-        [
-            [89, 109, 35, 90], 10
-        ]
-    ]
     ]
 ];
 

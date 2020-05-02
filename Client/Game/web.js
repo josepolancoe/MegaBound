@@ -76,7 +76,8 @@ this._app.use(session({
     saveUninitialized: true,
     cookie: {
         secure: true,
-        maxAge: new Date(Date.now() + (60 * 1000 * 10))
+        //maxAge: new Date(Date.now() + (60 * 1000 * 10))
+		maxAge: 600000
     }
 }));
 this._app.use(cookieParser('xgamedev'));
