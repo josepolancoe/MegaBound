@@ -115,17 +115,19 @@ router.post('/ajaxLogin', function (req, res) {
         res.status(500).send('Ip Banned!');
         return null;
     }
+
     var ip = req.headers['x-forwarded-for'];
     var country;
     if (ip) {
         var tmpip = ip.split(',');
+        Logger.info("La ip es:  " +tmpip);
         var geo = geoip.lookup(tmpip[0]);
         if (geo)
             country = geo.country;
     }
     var user = req.body.u;
     var password = req.body.p;
-    Logger.log("'" + user + "' " + req.body.r);
+    //Logger.log("'" + user + "' " + req.body.r);
     if (Buffer.byteLength(user, 'utf8') < 2 || Buffer.byteLength(user, 'utf8') > 30) {
         res.send(JSON.stringify(["Nombre de Usuario incorrecto!"]));
     } else {
@@ -144,9 +146,17 @@ router.post('/ajaxLogin', function (req, res) {
                                 req.session.rank = res1.rank;
                                 req.session.acc_session = data.Session;
                                 req.session.game_id = res1.game_id;
-                                Logger.log("Login: " + res1.game_id);
-                                Logger.log("rank: " + res1.rank);
+                                Logger.log("====================");
+                                Logger.log("User: " + res1.game_id);
+                                Logger.log("Rank: " + res1.rank);
                                 res.send(JSON.stringify([data.Id, res1.rank, 0, data.Session, country, 0]));
+                               var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+                               ip.replace(/^.*:/, '')
+                            //     getClientAddress = function (req) {
+                            //         return (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.connection.remoteAddress;
+                            // };
+                            Logger.log("IP: "+ip);
+                            Logger.log("===================="+"\n");
                             } else {
                                 res.send(JSON.stringify([0]));
                             }
@@ -193,7 +203,7 @@ router.post('/ajaxRegister', function (req, res) {
         res.send(JSON.stringify(["Nombre de usuario no puede contener espacios"]));
         return null;
     }
-    var ip = req.headers['x-forwarded-for'];
+    var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     var country;
     if (ip) {
         var tmpip = ip.split(',');
@@ -206,7 +216,7 @@ router.post('/ajaxRegister', function (req, res) {
     var validate = false;
     if (Buffer.byteLength(gender, 'utf8') < 0 || (gender !== 'm' || gender !== 'f'))
         gender = 'm';
-    Logger.log("'" + user + "' " + gender);
+    Logger.log("Se registró: '" + user + "' " + gender+"\n");
     var tmpusrl = user;
     var tmpuser = tmpusrl.toLowerCase();
     if (Buffer.byteLength(user, 'utf8') < 2 || Buffer.byteLength(user, 'utf8') > 30) {

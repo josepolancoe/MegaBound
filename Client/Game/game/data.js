@@ -876,13 +876,13 @@ var db = [
 	[42865, 42865, 4, 2, "bg42865", "(RARE) Street Figther", 
 		{
             "min_rank": 26,
-            "note": 2,
+            "note": 1,
             "gold_week": 0,
             "gold_month": 0,
             "gold_perm": 0,
             "cash_week": 0,
             "cash_month": 0,
-            "cash_perm": 30000,
+            "cash_perm": 0,
             "stat_pop": 0,
             "stat_time": 0,
             "stat_atk": 0,
@@ -895,6 +895,246 @@ var db = [
         },
         [
             [187,77,0,0],12
+        ]
+    ],
+	[42866, 42866, 4, 2, "b203000", "(RARE) Super Power", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,0],3
+        ]
+    ],
+	[42867, 42867, 4, 2, "b203003", "(RARE) Green Space", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,0],3
+        ]
+    ],
+	[42868, 42868, 4, 2, "b203001", "(RARE) Blue Space", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,0],3
+        ]
+    ],
+	[42869, 42869, 4, 2, "b203026", "(RARE) Light Plane", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,0],3
+        ]
+    ],
+	[42822, 42822, 4, 2, "b203028", "(RARE) Babolat", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [187,77,-6,-2]
+        ]
+    ],
+	[42823, 42823, 4, 2, "b203119", "(RARE) Pilot", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,-6,-2]
+        ]
+    ],
+	[42824, 42824, 4, 2, "b203035", "(RARE) Stereo", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,-1],2
+        ]
+    ],
+	[42825, 42825, 4, 2, "b203089", "(RARE) Mustang", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,-6,-2]
+        ]
+    ],
+	[42826, 42826, 4, 2, "b203097", "(RARE) Green Archer", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,0,0],3
+        ]
+    ],
+	[42827, 42827, 4, 2, "b204875", "(RARE) Airport", 
+		{
+            "min_rank": 26,
+            "note": 1,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,77,-6,-2]
         ]
     ],
     [20, 20, 0, 2, "mh00020", "OSO (RARE)",
@@ -31758,6 +31998,54 @@ var db = [
             "stat_def": 0,
             "stat_life": 0,
             "stat_item": 17,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [34, 28, -15, 37], 10
+        ]
+    ],
+	[10203, 10203, 3, 2, "mf00684",
+        "(RARE) Facebook Flag", {
+            "min_rank": 26,
+            "note": 0,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [34, 28, -15, 37], 10
+        ]
+    ],
+	[10204, 10204, 3, 2, "mf01000",
+        "(RARE) Beta Flag", {
+            "min_rank": 26,
+            "note": 0,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
             "stat_dig": 0,
             "stat_shld": 0,
             "remove_time": 0

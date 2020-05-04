@@ -271,6 +271,19 @@ module.exports = class Commands {
                                                 }
                                                 break;
                                             }
+										case '/delete':
+                                            {
+                                                if (data[1] !== null && data[1].length > 0) {
+                                                    cash1.db.connection.getConnection().then(conn => {
+                                                        conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',5,'',1,'','','') ",function(err, result){
+                                                            self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Foreground)", Types.CHAT_TYPE.SYSTEM));
+                                                        }).then(rows => {
+                                                                conn.release();                                       
+                                                            });
+                                                    });
+                                                }
+                                                break;
+                                            }
 								case '/kickgm':
                                     {
                                         if (data[1] !== null && data[1].length > 0) {

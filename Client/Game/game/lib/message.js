@@ -346,8 +346,8 @@ Messages.gameOver = Message.extend({
                 player.rank,
                 player.win_gp,
                 player.win_gold,
-                0, //bonus gp
-                10 //bonus gold
+                10, //bonus gp
+                0 //bonus gold
             ]);
         });
     },
@@ -578,6 +578,7 @@ Messages.InfoResponse = Message.extend({
     }
 });
 
+//Ver mensaje de invitación al guild con avatar
 Messages.GuildreqResponse = Message.extend({
     init: function (account) {
         this.account = account;

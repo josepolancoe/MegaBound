@@ -986,7 +986,7 @@ module.exports = class DataBase {
         var self = this;
         return new Promise(function (resolve, reject) {
             self.connection.getConnection().then(conn => {
-                conn.query('UPDATE users SET rank = CASE WHEN rank=26 THEN 26 WHEN rank=27 THEN 27 WHEN gp>120000 THEN 24 WHEN gp>110000 THEN 23 WHEN gp>100000 THEN 22 WHEN gp > 90000 THEN 21 WHEN gp>80000 THEN 20 WHEN gp>70000 THEN 19 WHEN gp>60000 THEN 18 WHEN gp>50000 THEN 17 WHEN gp>40000 THEN 16 WHEN gp>30000 THEN 15 WHEN gp>22933 THEN 14 WHEN gp>15001 THEN 13 WHEN gp>10042 THEN 12 WHEN gp>6900 THEN 11 WHEN gp>6000 THEN 10 WHEN gp>5100 THEN 9 WHEN gp>4200 THEN 8 WHEN gp>3500 THEN 7 WHEN gp>2800 THEN 6 WHEN gp>2300 THEN 5 WHEN gp>1800 THEN 4 WHEN gp>1500 THEN 3 WHEN gp>1200 THEN 2 WHEN gp>1100 THEN 1 WHEN gp>=1000 THEN 0 END')
+                conn.query('UPDATE users SET rank = CASE WHEN rank=26 THEN 26 WHEN rank=27 THEN 27 WHEN gp>=120000 THEN 24 WHEN gp>=110000 THEN 23 WHEN gp>=100000 THEN 22 WHEN gp >=90000 THEN 21 WHEN gp>=80000 THEN 20 WHEN gp>=70000 THEN 19 WHEN gp>=60000 THEN 18 WHEN gp>=50000 THEN 17 WHEN gp>=40000 THEN 16 WHEN gp>=30000 THEN 15 WHEN gp>=22933 THEN 14 WHEN gp>=15001 THEN 13 WHEN gp>=10042 THEN 12 WHEN gp>=6900 THEN 11 WHEN gp>=6000 THEN 10 WHEN gp>=5100 THEN 9 WHEN gp>=4200 THEN 8 WHEN gp>=3500 THEN 7 WHEN gp>=2800 THEN 6 WHEN gp>=2300 THEN 5 WHEN gp>=1800 THEN 4 WHEN gp>=1500 THEN 3 WHEN gp>=1200 THEN 2 WHEN gp>=1100 THEN 1 WHEN gp<=1099 THEN 0 END')
                     .then(rows => {
                         conn.release();
                         if (rows[0].length > 0)

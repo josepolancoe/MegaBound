@@ -2811,3 +2811,330 @@
 [ LOG    ]: 'Polanco' 0
 [ LOG    ]: Login: Polanco
 [ LOG    ]: rank: 26
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::ffff:127.0.0.1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Velaxx' 0
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::ffff:127.0.0.1
+[ LOG    ]: ::ffff:127.0.0.1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: ====================
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ::1
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: ====================
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: ::1
+[ LOG    ]: ====================
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: ====================
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+[ LOG    ]: 'Polanco' 0
+[ LOG    ]: ====================
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+[ LOG    ]: ====================
+[ LOG    ]: Login: Polanco
+[ LOG    ]: rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: Login: Velaxx
+[ LOG    ]: rank: 1
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: Login: Rogger
+[ LOG    ]: rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Rogger
+[ LOG    ]: Rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Rogger
+[ LOG    ]: Rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Rogger
+[ LOG    ]: Rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: 'Mazda' m
+[ LOG    ]: ====================
+[ LOG    ]: User: Mazda
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: ::ffff:127.0.0.1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Rogger
+[ LOG    ]: Rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Joji
+[ LOG    ]: Rank: 27
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Atenea
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: ::1
+[ LOG    ]: ====================
+
+[ LOG    ]: Se registró: 'Polanco' m
+
+[ LOG    ]: user: '1'
