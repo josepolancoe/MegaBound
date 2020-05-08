@@ -166,7 +166,7 @@ module.exports = class Commands {
                                 {
                                     if (data[1] !== null && data[1].length > 0) {
                                         cash1.db.connection.getConnection().then(conn => {
-                                            conn.query("UPDATE users SET gp = (gp + '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
+                                            conn.query("UPDATE users SET gp = (gp - '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
                                                 self.gameserver.pushBroadcast(new Message.chatResponse(self.account, " '"+data[1]+"' Perdió '"+ data[2]+"' de GP ", Types.CHAT_TYPE.SYSTEM));
                                             }).then(rows => {
                                                     conn.release();                                       

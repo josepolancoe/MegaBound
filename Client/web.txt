@@ -3661,3 +3661,19 @@
 [ LOG    ]: IP: 1
 [ LOG    ]: ====================
 
+[ LOG    ]: 'Polanco' password error veilsiderx7 xdxdxd
+[ LOG    ]: 'Polanco' password error veilsiderx7 xdxdxd
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: 'Polanco' password error veilsiderx7 xdxdxd
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'NsTeam'

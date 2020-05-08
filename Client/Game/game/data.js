@@ -1137,6 +1137,102 @@ var db = [
             [188,77,-6,-2]
         ]
     ],
+	[42828, 42828, 4, 2, "b203095", "(RARE) Pokemon", 
+		{
+            "min_rank": 26,
+            "note": 4,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [176,54,-6,-2],49
+        ]
+    ],
+	[42829, 42829, 3, 2, "af03098", "(RARE) Charmander", 
+		{
+            "min_rank": 26,
+            "note": 4,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [43,45,-27,21],31
+        ]
+    ],
+	[42830, 42830, 3, 2, "af03094", "(RARE) Pikachu", 
+		{
+            "min_rank": 26,
+            "note": 4,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [25,50,-30,27],3
+        ]
+    ],
+	[42831, 42831, 5, 2, "f204855", "(RARE) Pascua", 
+		{
+            "min_rank": 26,
+            "note": 4,
+            "gold_week": 0,
+            "gold_month": 0,
+            "gold_perm": 0,
+            "cash_week": 0,
+            "cash_month": 0,
+            "cash_perm": 0,
+            "stat_pop": 0,
+            "stat_time": 0,
+            "stat_atk": 0,
+            "stat_def": 0,
+            "stat_life": 0,
+            "stat_item": 0,
+            "stat_dig": 0,
+            "stat_shld": 0,
+            "remove_time": 0
+        },
+        [
+            [188,34,0,-43],15
+        ]
+    ],
     [20, 20, 0, 2, "mh00020", "OSO (RARE)",
         {
             "min_rank": 26,
