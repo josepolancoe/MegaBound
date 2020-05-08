@@ -33,7 +33,7 @@ module.exports = class Shoot {
 
         //this.box = new Box(new Vector(x, y), 30, 25, 0);
         this.box = new Box(new Vector(x, y), 15, 13, 0);
-        this.explodebox = new Box(new Vector(x, y), 40, 40, 0);
+        this.explodebox = new Box(new Vector(x, y), 40,40, 0);
         this.ss = 0;
 
 
@@ -60,13 +60,13 @@ module.exports = class Shoot {
             else if (mobile == Types.MOBILE.GRUB)
                 this.damageshot = 220;
             else if (mobile == Types.MOBILE.RAON)
-                this.damageshot = 90;
+                this.damageshot = 70;
             else if (mobile == Types.MOBILE.KALSIDDON)
                 this.damageshot = 100;
         } else if (type == 1) {
             this.damageshot = 350;
             if (mobile == Types.MOBILE.ADUKA)
-                this.damageshot = 150;
+                this.damageshot = 130;
             else if (mobile == Types.MOBILE.BIGFOOT)
                 this.damageshot = 150;
             else if (mobile == Types.MOBILE.DRAGON)
@@ -80,9 +80,9 @@ module.exports = class Shoot {
             else if (mobile == Types.MOBILE.ELECTRICO)
                 this.damageshot = 150;
             else if (mobile == Types.MOBILE.GRUB)
-                this.damageshot = 150;
+                this.damageshot = 130;
             else if (mobile == Types.MOBILE.RAON)
-                this.damageshot = 150;
+                this.damageshot = 100;
             else if (mobile == Types.MOBILE.KALSIDDON)
                 this.damageshot = 150;
             this.ss = 0;
@@ -92,23 +92,23 @@ module.exports = class Shoot {
 			if (mobile == Types.MOBILE.ADUKA)
                 this.damageshot = 490;
             else if (mobile == Types.MOBILE.BIGFOOT)
-                this.damageshot = 330;
+                this.damageshot = 175;
             else if (mobile == Types.MOBILE.DRAGON)
-                this.damageshot = 480;
+                this.damageshot = 155;
             else if (mobile == Types.MOBILE.TRICO)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.TURTLE)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.BOOMER)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.ELECTRICO)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.GRUB)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.RAON)
-                this.damageshot = 480;
+                this.damageshot = 520;
             else if (mobile == Types.MOBILE.KALSIDDON)
-                this.damageshot = 480;
+                this.damageshot = 175;
         }
 
         this.img = defmobile.bullets[type];

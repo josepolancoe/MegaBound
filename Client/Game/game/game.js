@@ -11,8 +11,8 @@ module.exports = class Game {
         this.id = id;
         this.room = room;
         this.gameserver = gameserver;
-        this.wind_power = 12;
-        this.wind_angle = 60;
+        this.wind_power = 0; //50
+        this.wind_angle = 0; //20
         this.frist_turn = 0;
         this.time_played = 0;
         this.turn_player = 0;
@@ -56,7 +56,7 @@ module.exports = class Game {
                         });
                     }
                 });
-            } catch (e) {
+            } catch (e) {                
                 self.getNextTurn(function (player) {
                     self.turn_player = player.position;
                     self.gameserver.pushToRoom(self.room.id, new Message.gamePlay(acc, shoot, player, chat));
@@ -126,19 +126,21 @@ module.exports = class Game {
 
     gameShoot(x, y, body, look, ang, power, time, type, account) {
         var self = this;
-        //Logger.debug("x: " + x + " y: " + y + " body: " + body + " look: " + look + " ang: " + ang + " power: " + power);
-        power = parseInt(power * 234 / 100);
+        var wind_power = 35; //50
+        var wind_angle = 20; //20
+        //Logger.info("x: " + x + " y: " + y + " body: " + body + " look: " + look + " ang: " + ang + " power: " + power);
+        power = parseInt(power * 235/ 100);
         var mobile_data = Types.MOBILES[account.player.mobile];
-        /*
-        var b0 = Math.round(parseInt(Math.cos(self.wind_ang * Math.PI / 180) * self.wind_power * mobile_data.by)) / 100;
-        var b1 = Math.round(parseInt(Math.sin(self.wind_ang * Math.PI / 180) * self.wind_power * mobile_data.by - mobile_data.bx)) / 100;
+        
+        var b0 = Math.round(parseInt(Math.cos(wind_angle * Math.PI / 180) * wind_power * mobile_data.by)) / 100;
+        var b1 = Math.round(parseInt(Math.sin(wind_angle * Math.PI / 180) * wind_power * mobile_data.by - mobile_data.bx)) / 100;
         var ax = Math.round(mobile_data.bx - b0);
         var ay = Math.round(mobile_data.by - b1);
-        if (self.wind_power == 0)
-        fay = mobile_data.by;
-        */
-        var ax = mobile_data.bx;
-        var ay = mobile_data.by;
+        // if (self.wind_power == 0)
+        // fay = mobile_data.by;
+        
+        // var ax = mobile_data.bx;
+        // var ay = mobile_data.by;
         var dis = 0;
         if (look === 0) {
             ang = 180 - ang;

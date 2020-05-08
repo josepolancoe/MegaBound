@@ -102,7 +102,7 @@ router.post('/g', function (req, res) {
 
 router.post('/ajaxLogin', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
-    req.db.setUpdateRank();
+    //req.db.setUpdateRank();
     var valid_enter = true;
     /*var valid_enter = false;*/
     /*if (req.headers.origin !== "null") {
@@ -151,11 +151,8 @@ router.post('/ajaxLogin', function (req, res) {
                                 Logger.log("Rank: " + res1.rank);
                                 res.send(JSON.stringify([data.Id, res1.rank, 0, data.Session, country, 0]));
                                var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-                               ip.replace(/^.*:/, '')
-                            //     getClientAddress = function (req) {
-                            //         return (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.connection.remoteAddress;
-                            // };
-                            Logger.log("IP: "+ip);
+                              var ipv4= ip.replace(/^.*:/, '')
+                            Logger.log("IP: "+ipv4);
                             Logger.log("===================="+"\n");
                             } else {
                                 res.send(JSON.stringify([0]));
@@ -216,7 +213,7 @@ router.post('/ajaxRegister', function (req, res) {
     var validate = false;
     if (Buffer.byteLength(gender, 'utf8') < 0 || (gender !== 'm' || gender !== 'f'))
         gender = 'm';
-    Logger.log("Se registró: '" + user + "' " + gender+"\n");
+    Logger.log("(Se registró: '" + user + "' " + gender+")\n");
     var tmpusrl = user;
     var tmpuser = tmpusrl.toLowerCase();
     if (Buffer.byteLength(user, 'utf8') < 2 || Buffer.byteLength(user, 'utf8') > 30) {
@@ -322,14 +319,16 @@ router.get('/w2', function (req, res) {
     // ["Avatar On.",7,9013,134,3000],["Avatar Off.",1,9014,749,3000],520
     // ];
     var data = [86, 0, 0, 
-        ["High Ranks",0,9001,45,3000,9,24],
-        ["Mid Ranks",0,9002,0,3000,7,17],
-        ["Beginners",0,9003,970,5000,0,6],
-        ["All",0,9004,0,3000],
-        ["All",0,9005,0,3000],
-        ["Bunge.",1,9006,0,3000],
-        ["Aduka.",1,9009,0,3000],
-        ["Dragon OFF",2,9012,0,4000,11,24,1586995,1587002]
+        
+        // ["High Ranks",0,9001,45,3000,9,24],
+        // ["Mid Ranks",0,9002,0,3000,7,17],
+        // ["Beginners",0,9003,970,5000,0,6],
+         ["All",0,9004,0,3000],
+        // ["All",0,9005,0,3000],
+        // ["Bunge.",1,9006,0,3000],
+        // ["Aduka.",1,9009,0,3000],
+        // ["Dragon OFF",2,9012,0,4000,11,24,1586995,1587002]
+        ["Only GM",0,90012,0,3000,26,27]
         ,520
     ];
     req.session.touch();

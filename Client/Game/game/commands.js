@@ -45,7 +45,7 @@ module.exports = class Commands {
                         }
                         break;
                     }
-                case '/on8':
+                case '/on4':
                     {
                         if (self.account.player.gm === 1 && typeof (self.account.room) !== 'undefined') {
                             self.account.room.max_players = 8;
@@ -53,7 +53,15 @@ module.exports = class Commands {
                         }
                         break;
                     }
-                case '/on4':
+                    case '/on3':
+                    {
+                        if (self.account.player.gm === 1 && typeof (self.account.room) !== 'undefined') {
+                            self.account.room.max_players = 6;
+                            self.account.room.power = 1;
+                        }
+                        break;
+                    }
+                case '/on2':
                     {
                         if (self.account.player.gm === 1 && typeof (self.account.room) !== 'undefined') {
                             self.account.room.max_players = 4;
@@ -61,7 +69,7 @@ module.exports = class Commands {
                         }
                         break;
                     }
-				case '/on2':
+				case '/on1':
                     {
                         if (self.account.player.gm === 1 && typeof (self.account.room) !== 'undefined') {
                             self.account.room.max_players = 2;
@@ -69,10 +77,10 @@ module.exports = class Commands {
                         }
                         break;
                     }
-                    case '/on1':
+                        case '/on':
                         {
                             if (self.account.player.gm === 1 && typeof (self.account.room) !== 'undefined') {
-                                self.account.room.max_players = 1;
+                                self.account.room.max_players = 0;
                                 self.account.room.power = 1;
                             }
                             break;
@@ -141,12 +149,25 @@ module.exports = class Commands {
                                 }
                                 break;
                             }
-                            case '/gp':
+                            case '/gp+':
                                 {
                                     if (data[1] !== null && data[1].length > 0) {
                                         cash1.db.connection.getConnection().then(conn => {
                                             conn.query("UPDATE users SET gp = (gp + '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
-                                                self.gameserver.pushBroadcast(new Message.chatResponse(self.account, " '"+data[1]+"' GANÓ '"+ data[2]+"' DE GP ", Types.CHAT_TYPE.SYSTEM));
+                                                self.gameserver.pushBroadcast(new Message.chatResponse(self.account, " '"+data[1]+"' Ganó '"+ data[2]+"' de GP ", Types.CHAT_TYPE.SYSTEM));
+                                            }).then(rows => {
+                                                    conn.release();                                       
+                                                });
+                                        });
+                                    }
+                                    break;
+                                }
+                                case '/gp-':
+                                {
+                                    if (data[1] !== null && data[1].length > 0) {
+                                        cash1.db.connection.getConnection().then(conn => {
+                                            conn.query("UPDATE users SET gp = (gp + '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
+                                                self.gameserver.pushBroadcast(new Message.chatResponse(self.account, " '"+data[1]+"' Perdió '"+ data[2]+"' de GP ", Types.CHAT_TYPE.SYSTEM));
                                             }).then(rows => {
                                                     conn.release();                                       
                                                 });
@@ -297,19 +318,6 @@ module.exports = class Commands {
                                         }
                                         break;
                                     }
-								case '/mod':
-                                    {
-                                        if (data[1] !== null && data[1].length > 0) {
-                                            cash1.db.connection.getConnection().then(conn => {
-                                                conn.query("UPDATE users SET rank = 27, gm = 1 WHERE game_id='"+ data[1] +"'",function(err, result){
-                                                    self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El nivel de '"+data[1]+"' fue cambiado", Types.CHAT_TYPE.SYSTEM));
-                                                }).then(rows => {
-                                                        conn.release();                                       
-                                                    });
-                                            });
-                                        }
-                                        break;
-                                    }
                                     case '/info':
                                         {
                                             if (data[1] !== null && data[1].length > 0) {
@@ -324,21 +332,6 @@ module.exports = class Commands {
                                             }
                                             break;
                                         }
-
-                                        case '/send':
-                                            {
-                                                if (data[1] !== null && data[1].length > 0) {
-                                                    cash1.db.connection.getConnection().then(conn => {
-                                                        conn.query("SELECT IdAcc, game_id, gender, rank, gp, cash, gold, win, loss FROM users where game_id='"+ data[1] +"' ", function(err, result, fields){
-                                                            console.log(result);
-                                                            self.gameserver.pushBroadcast(new Message.chatResponse(self.account,  JSON.stringify(result) , Types.CHAT_TYPE.SYSTEM));
-                                                        }).then(rows => {
-                                                                conn.release();                                       
-                                                            });
-                                                    });
-                                                }
-                                                break;
-                                            }
                                     case '/time':
                                         {
                                             if (self.account.player.gm === 1) {
@@ -348,6 +341,17 @@ module.exports = class Commands {
                                             break;
                                         }
                                             case '/update_all':
+                                                {
+                                                        cash1.db.connection.getConnection().then(conn => {
+                                                            conn.query("UPDATE users SET rank = CASE WHEN rank=26 THEN 26 WHEN rank=27 THEN 27 WHEN gp>120000 THEN 24 WHEN gp>110000 THEN 23 WHEN gp>100000 THEN 22 WHEN gp > 90000 THEN 21 WHEN gp>80000 THEN 20 WHEN gp>70000 THEN 19 WHEN gp>60000 THEN 18 WHEN gp>50000 THEN 17 WHEN gp>40000 THEN 16 WHEN gp>30000 THEN 15 WHEN gp>22933 THEN 14 WHEN gp>15001 THEN 13 WHEN gp>10042 THEN 12 WHEN gp>6900 THEN 11 WHEN gp>6000 THEN 10 WHEN gp>5100 THEN 9 WHEN gp>4200 THEN 8 WHEN gp>3500 THEN 7 WHEN gp>2800 THEN 6 WHEN gp>2300 THEN 5 WHEN gp>1800 THEN 4 WHEN gp>1500 THEN 3 WHEN gp>1200 THEN 2 WHEN gp>1100 THEN 1 WHEN gp>=1000 THEN 0 END", function(err, result, fields){
+                                                                console.log(result);
+                                                                self.gameserver.pushBroadcast(new Message.chatResponse(self.account,  JSON.stringify(result) , Types.CHAT_TYPE.SYSTEM));
+                                                            }).then(rows => {
+                                                                    conn.release();                                       
+                                                                });
+                                                        });
+                                                }
+                                        case '/kick':
                                                 {
                                                         cash1.db.connection.getConnection().then(conn => {
                                                             conn.query("UPDATE users SET rank = CASE WHEN rank=26 THEN 26 WHEN rank=27 THEN 27 WHEN gp>120000 THEN 24 WHEN gp>110000 THEN 23 WHEN gp>100000 THEN 22 WHEN gp > 90000 THEN 21 WHEN gp>80000 THEN 20 WHEN gp>70000 THEN 19 WHEN gp>60000 THEN 18 WHEN gp>50000 THEN 17 WHEN gp>40000 THEN 16 WHEN gp>30000 THEN 15 WHEN gp>22933 THEN 14 WHEN gp>15001 THEN 13 WHEN gp>10042 THEN 12 WHEN gp>6900 THEN 11 WHEN gp>6000 THEN 10 WHEN gp>5100 THEN 9 WHEN gp>4200 THEN 8 WHEN gp>3500 THEN 7 WHEN gp>2800 THEN 6 WHEN gp>2300 THEN 5 WHEN gp>1800 THEN 4 WHEN gp>1500 THEN 3 WHEN gp>1200 THEN 2 WHEN gp>1100 THEN 1 WHEN gp>=1000 THEN 0 END", function(err, result, fields){

@@ -180,7 +180,7 @@ module.exports = class Room {
                 var rnmap = self.RandomInt(0, mlng);
                 self.map = Types.MAPS_PLAY[rnmap];
 
-                //Logger.debug("map: " + self.map);
+                Logger.info("map: " + self.map);
                 self.game = new Game(self.id, self, self.gameserver);
                 if (self.game) {
                     self.status = Types.ROOM_STATUS.PLAYING;
@@ -412,5 +412,9 @@ module.exports = class Room {
 
     RandomInt(low, high) {
         return Math.floor(Math.random() * (high - low) + low);
+    }
+
+    RoomOptions(){
+
     }
 };

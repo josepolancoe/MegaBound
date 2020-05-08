@@ -657,8 +657,12 @@ module.exports = class Account {
                         if (room) {
                             if (room.player_count < room.max_players && room.status === Types.ROOM_STATUS.WAITING) {
                                 if (room.look === 1 && self.player.gm === 0) {
-                                    if (room.password !== password)
+                                    if (room.password !== password){
                                         self.sendMessage(new Message.alert2Response(Types.ALERT2_TYPES.WRONG_PASSWORD, []));
+                                    }else{
+                                        room.joinPlayer(self);
+                                        self.location_type = Types.LOCATION.ROOM;
+                                    }
                                 } else {
                                     room.joinPlayer(self);
                                     self.location_type = Types.LOCATION.ROOM;
@@ -668,6 +672,7 @@ module.exports = class Account {
                             } else {
                                 self.sendMessage(new Message.alert2Response(Types.ALERT2_TYPES.ROOM_FULL, []));
                             }
+                            Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
                         } else {
                             self.sendMessage(new Message.alert2Response(Types.ALERT2_TYPES.ROOM_DOES_NOT_EXIST, []));
                         }
@@ -681,11 +686,9 @@ module.exports = class Account {
                         self.connection.close();
                         return null;
                     }
-
                     /*if ((self.player.rank >= 27) === false) {
                         return null;
                     }*/
-
                     let id = self.gameserver.getIdforRoom();
                     let title = message[1];
                     let password = message[2];
@@ -699,11 +702,38 @@ module.exports = class Account {
                                 room.joinPlayer(self);
                                 self.location_type = Types.LOCATION.ROOM;
                                 self.gameserver.sendRooms();
+                                Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
                             }
                         } else {
                             self.sendMessage(new Message.alert2Response(Types.ALERT2_TYPES.ROOM_DOES_NOT_EXIST, []));
                         }
                     });
+                    break;
+                }
+            case Types.CLIENT_OPCODE.room_options:
+                {
+                    // seguridad
+                    if (!self.login_complete) {
+                        self.connection.close();
+                        return null;
+                    }
+                    let gamemode = message[2];
+                    if (gamemode=="1") {
+                        self.room.game_mode = Types.GAME_MODE.BOSS;
+                        self.room.joinPlayer(self);
+                        self.location_type = Types.LOCATION.ROOM;
+                        self.gameserver.sendRooms();
+                    }else if(gamemode=="0"){
+                        self.room.game_mode = Types.GAME_MODE.NORMAL;
+                        self.room.joinPlayer(self);
+                        self.location_type = Types.LOCATION.ROOM;
+                        self.gameserver.sendRooms();
+                    }else if(gamemode=="2"){
+                        self.sendMessage(new Message.alertResponse("No disponible :(", "El modo SAME SAME aún no está disponible."));
+                    }else{
+                        self.sendMessage(new Message.alertResponse("No disponible :(", "El modo SCORE aún no está disponible."));
+                    }
+                        //Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
                     break;
                 }
             case Types.CLIENT_OPCODE.room_title:
@@ -1003,6 +1033,7 @@ module.exports = class Account {
                         self.player.ang = _ang;
                         self.player.move();
                         self.gameserver.pushToRoom(self.room.id, new Message.gameUpdate(self));
+                        //Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
                     }
                     break;
                 }
@@ -1051,14 +1082,31 @@ module.exports = class Account {
                         self.player.look = look;
                         self.player.move();
                         self.room.game.gameShoot(x, y, body, look, ang, power, time, type, self);
+                        //Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
                     }
                     break;
                 }
+            // case Types.CLIENT_OPCODE.game_use_item:
+            //     {
+            //         // seguridad
+            //         if (!self.login_complete) {
+            //             self.connection.close();
+            //             return null;
+            //         }
+            //         break;
+            //     }
+
             case Types.CLIENT_OPCODE.addfriend:
                 {
+                    // seguridad
+                    if (!self.login_complete) {
+                        self.connection.close();
+                        return null;
+                    }
                     self.sendMessage(new Message.alertResponse("No disponible :(", "Estamos trabando en esto"));
                     break;
                 }
+            
             default:
                 {
                     Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);

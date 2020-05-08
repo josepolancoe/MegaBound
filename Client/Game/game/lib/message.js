@@ -347,7 +347,7 @@ Messages.gameOver = Message.extend({
                 player.win_gp,
                 player.win_gold,
                 10, //bonus gp
-                0 //bonus gold
+                10 //bonus gold
             ]);
         });
     },

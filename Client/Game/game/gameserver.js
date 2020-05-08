@@ -56,10 +56,9 @@ module.exports = class GameServer {
         var data = self.chathistory.slice(0);
         data.push(["", "", 9]);
         if (self.evento200) {
-          data.push(["Evento 400% GP 24h - Desarrollado por Andres Polanco", "", 6]);
+          data.push(["Evento 500% GP 24h - Desarrollado por Andres Polanco", "", 6]);
           //1 Regalo, 3 Gold in game, 4 is Power in chat, 5 Chat GM, 6 System
-          data.push(["La Familia MegaBound te invita su grupo -> https://cutt.ly/JyhGwMy (directo)", "", 6]);
-          data.push(["Para jugar con los BOSS, debes crear la sala y selecionar el Modo Boss", "", 7]);
+          data.push(["La Familia MegaBound te invita su grupo en FB => https://cutt.ly/grupo-mega-bound", "", 6]);
         }
         account.send([Types.SERVER_OPCODE.room_state, [0, data], 1]);
       }
