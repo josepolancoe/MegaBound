@@ -30,7 +30,7 @@ module.exports = class World {
         this.gp_penalty = 0;
 
         if (gameserver.evento200 === true) {
-            this.gp_kill = (16 * 5);
+            this.gp_kill = (16 * 2);
             this.gold_kill = (1000 * 2);
 
             this.gold_good = (100 * 2);
