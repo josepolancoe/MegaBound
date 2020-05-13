@@ -149,7 +149,31 @@ module.exports = class Commands {
                                 }
                                 break;
                             }
-                            case '/gp+':
+						case '/upgame':
+                            {
+                                if (data[1] !== null && data[1].length > 0) {
+                                    cash1.db.connection.getConnection().then(conn => {
+                                        conn.query("UPDATE users SET win = (win + '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
+                                        }).then(rows => {
+                                                conn.release();                                       
+                                            });
+                                    });
+                                }
+                                break;
+                            }
+						case '/downgame':
+                            {
+                                if (data[1] !== null && data[1].length > 0) {
+                                    cash1.db.connection.getConnection().then(conn => {
+                                        conn.query("UPDATE users SET loss = (loss + '"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
+                                        }).then(rows => {
+                                                conn.release();                                       
+                                            });
+                                    });
+                                }
+                                break;
+                            }
+                            case '/upgp':
                                 {
                                     if (data[1] !== null && data[1].length > 0) {
                                         cash1.db.connection.getConnection().then(conn => {
@@ -162,7 +186,7 @@ module.exports = class Commands {
                                     }
                                     break;
                                 }
-                                case '/gp-':
+                                case '/downgp':
                                 {
                                     if (data[1] !== null && data[1].length > 0) {
                                         cash1.db.connection.getConnection().then(conn => {
@@ -181,6 +205,18 @@ module.exports = class Commands {
                                             cash1.db.connection.getConnection().then(conn => {
                                                 conn.query("UPDATE users SET rank = ('"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
                                                     self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El nivel de '"+data[1]+"' fue cambiado", Types.CHAT_TYPE.SYSTEM));
+                                                }).then(rows => {
+                                                        conn.release();                                       
+                                                    });
+                                            });
+                                        }
+                                        break;
+                                    }
+								case '/photo':
+                                    {
+                                        if (data[1] !== null && data[1].length > 0) {
+                                            cash1.db.connection.getConnection().then(conn => {
+                                                conn.query("UPDATE users SET photo_url = ('"+ data[2] +"') WHERE game_id='"+ data[1] +"'",function(err, result){
                                                 }).then(rows => {
                                                         conn.release();                                       
                                                     });
@@ -227,84 +263,6 @@ module.exports = class Commands {
                                             }
                                             break;
                                         }
-									case '/head':
-                                        {
-                                            if (data[1] !== null && data[1].length > 0) {
-                                                cash1.db.connection.getConnection().then(conn => {
-                                                    conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',0,'',1,'','','') ",function(err, result){
-                                                        self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Head)", Types.CHAT_TYPE.SYSTEM));
-                                                    }).then(rows => {
-                                                            conn.release();                                       
-                                                        });
-                                                });
-                                            }
-                                            break;
-                                        }
-                                        case '/body':
-                                            {
-                                                if (data[1] !== null && data[1].length > 0) {
-                                                    cash1.db.connection.getConnection().then(conn => {
-                                                        conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',1,'',1,'','','') ",function(err, result){
-                                                            self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Body)", Types.CHAT_TYPE.SYSTEM));
-                                                        }).then(rows => {
-                                                                conn.release();                                       
-                                                            });
-                                                    });
-                                                }
-                                                break;
-                                            }
-                                            case '/glass':
-                                                {
-                                                    if (data[1] !== null && data[1].length > 0) {
-                                                        cash1.db.connection.getConnection().then(conn => {
-                                                            conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',2,'',1,'','','') ",function(err, result){
-                                                                self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Glass)", Types.CHAT_TYPE.SYSTEM));
-                                                            }).then(rows => {
-                                                                    conn.release();                                       
-                                                                });
-                                                        });
-                                                    }
-                                                    break;
-                                                }
-                                                case '/flag':
-                                                    {
-                                                        if (data[1] !== null && data[1].length > 0) {
-                                                            cash1.db.connection.getConnection().then(conn => {
-                                                                conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',3,'',1,'','','') ",function(err, result){
-                                                                    self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Flag)", Types.CHAT_TYPE.SYSTEM));
-                                                                }).then(rows => {
-                                                                        conn.release();                                       
-                                                                    });
-                                                            });
-                                                        }
-                                                        break;
-                                                    }
-                                    case '/background':
-                                        {
-                                            if (data[1] !== null && data[1].length > 0) {
-                                                cash1.db.connection.getConnection().then(conn => {
-                                                    conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',4,'',1,'','','') ",function(err, result){
-                                                        self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Background)", Types.CHAT_TYPE.SYSTEM));
-                                                    }).then(rows => {
-                                                            conn.release();                                       
-                                                        });
-                                                });
-                                            }
-                                            break;
-                                        }
-                                        case '/foreground':
-                                            {
-                                                if (data[1] !== null && data[1].length > 0) {
-                                                    cash1.db.connection.getConnection().then(conn => {
-                                                        conn.query(" INSERT INTO user_avatars (Id, UserId, aId, type, expire, is_cash, is_gift, amount, expire_time) VALUES ('',' "+ data[1] +" ',' "+ data[2] +" ',5,'',1,'','','') ",function(err, result){
-                                                            self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "El GM envió tú regalo (Foreground)", Types.CHAT_TYPE.SYSTEM));
-                                                        }).then(rows => {
-                                                                conn.release();                                       
-                                                            });
-                                                    });
-                                                }
-                                                break;
-                                            }
 										case '/delete':
                                             {
                                                 if (data[1] !== null && data[1].length > 0) {

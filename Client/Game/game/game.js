@@ -57,6 +57,8 @@ module.exports = class Game {
                     }
                 });
             } catch (e) {                
+                Logger.info('entró al catch - Next Turn');   
+                self.checkDead();
                 self.getNextTurn(function (player) {
                     self.turn_player = player.position;
                     self.gameserver.pushToRoom(self.room.id, new Message.gamePlay(acc, shoot, player, chat));

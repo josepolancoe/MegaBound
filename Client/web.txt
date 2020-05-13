@@ -3747,3 +3747,151 @@
 [ LOG    ]: IP: 1
 [ LOG    ]: ====================
 
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: 'Polanco' password error xdxdxd 123456
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'roxana'
+[ LOG    ]: 'peru' password error xdxdxd 123456
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 1
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'roxana'
+[ LOG    ]: guild: 'asdasd'
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
