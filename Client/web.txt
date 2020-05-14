@@ -3895,3 +3895,567 @@
 [ LOG    ]: IP: 1
 [ LOG    ]: ====================
 
+[ LOG    ]: 'Polanco' password error xdxdxd veilsiderx7
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'sdasd'
+[ LOG    ]: user: 'roxana'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'sdasd'
+[ LOG    ]: guild: 'sdasd'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: 'Joji' password error 123456 xdxdxd
+[ LOG    ]: ====================
+[ LOG    ]: User: Joji
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: user: 'Joji'
+[ LOG    ]: user: 'peru'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: (Se registró: 'host' m)
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Joji
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'localhost'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: guild: 'localhost'
+[ LOG    ]: guild: 'localhost'
+[ LOG    ]: guild: 'localhost'
+[ LOG    ]: guild: 'localhost'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: (Se registró: 'host2' m)
+
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'Polanco'
+[ LOG    ]: user: 'peru'
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: user: 'roxana'
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: peru
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'mazda'
+[ LOG    ]: 'host' password error xdxdxd 123456
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: 'host' password error xdxdxd 123456
+[ LOG    ]: ====================
+[ LOG    ]: User: host
+[ LOG    ]: Rank: 0
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana12
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana12
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana12
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana12
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana21
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana123
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: ====================
+[ LOG    ]: User: Polanco
+[ LOG    ]: Rank: 26
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+
+[ LOG    ]: guild: 'GM'
+[ LOG    ]: ====================
+[ LOG    ]: User: roxana
+[ LOG    ]: Rank: 2
+[ LOG    ]: IP: 1
+[ LOG    ]: ====================
+

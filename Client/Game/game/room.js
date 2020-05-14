@@ -90,8 +90,8 @@ module.exports = class Room {
             return null;
         var type = Types.CHAT_TYPE.NORMAL;
         //LIDERES DE CLAN HABLARAN COMO POWER
-        if (account.player.guild_job === 1)
-            type = Types.CHAT_TYPE.POWER_USER;
+        // if (account.player.guild_job === 1)
+        //     type = Types.CHAT_TYPE.POWER_USER;
         if (account.player.gm === 1)
             type = Types.CHAT_TYPE.GM;
         self.gameserver.pushBroadcastChat(new Message.chatResponse(account, msj, type), self);
@@ -127,6 +127,37 @@ module.exports = class Room {
                 self.team_a_count++;
             }
         }
+        self.player_count++;
+        if ((self.team_a_count + self.team_a_count) != self.player_count) {
+            self.player_count = self.team_a_count + self.team_a_count;
+        }
+        account.send([Types.SERVER_OPCODE.enter_room]);
+        self.updatePosition(function () {
+            account.room = self;
+            account.sendMessage(new Message.roomState(self));
+            self.gameserver.pushToRoom(self.id, new Message.roomPlayers(self), null);
+        });
+        if (self.player_count >= self.max_players)
+            self.status = Types.ROOM_STATUS.FULL;
+        self.canremove = true;
+    }
+
+    joinOnlyPlayer(account) {
+        var self = this;
+        if (this.game_mode === Types.GAME_MODE.BOSS) {
+            if (account.player.is_bot === 0) {
+                self.team_a[account.user_id] = account.user_id;
+                account.player.team = 0;
+                self.team_a_count++;
+            } else {}
+        }else{
+            if (self.team_a_count == self.team_b_count) {
+                self.team_a[account.user_id] = account.user_id;
+                account.player.team = 0;
+                self.team_a_count++;
+            }
+        }
+        
         self.player_count++;
         if ((self.team_a_count + self.team_a_count) != self.player_count) {
             self.player_count = self.team_a_count + self.team_a_count;
@@ -220,6 +251,7 @@ module.exports = class Room {
                         self.game = null;
                         self.status = Types.ROOM_STATUS.WAITING;
                         self.gameserver.pushToRoom(self.id, new Message.roomPlayers(self));
+                        self.gameserver.sendRooms();
                     });
                 } 
             }else{
@@ -393,6 +425,7 @@ module.exports = class Room {
             if (self.player_count <= 0) {
                 if (self.canremove === true) {
                     self.gameserver.removeRoom(self.id);
+                    self.gameserver.sendRooms();
                 }
             }
         } catch (e) {
@@ -400,6 +433,7 @@ module.exports = class Room {
             if (self.player_count <= 0) {
                 if (self.canremove === true) {
                     self.gameserver.removeRoom(self.id);
+                    self.gameserver.sendRooms();
                 }
             }
         }

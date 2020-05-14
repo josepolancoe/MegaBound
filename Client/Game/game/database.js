@@ -394,7 +394,7 @@ module.exports = class DataBase {
             self.dontExitsUserByGameId(nname)
                 .then(function () {
                     var discount = 0;
-                    if (account.player.name_changes > 0)
+                    if (account.player.name_changes >= 0)
                         discount = 4000;
                     if (account.player.cash < discount) {
                         data.error_cash = true;
@@ -544,6 +544,23 @@ module.exports = class DataBase {
         return new Promise(function (resolve, reject) {
             self.connection.getConnection().then(conn => {
                 conn.query('DELETE FROM guild_member WHERE Id = ? and UserId = ?', [guild_id, user_id])
+                    .then(rows => {
+                        conn.release();
+                        if (rows[0].affectedRows > 0 || rows[0].changedRows > 0)
+                            return resolve(rows);
+                        else
+                            return reject();
+                    });
+            });
+        });
+    }
+
+    
+    deleteGuild(guild_id) {
+        var self = this;
+        return new Promise(function (resolve, reject) {
+            self.connection.getConnection().then(conn => {
+                conn.query('DELETE FROM guild WHERE Id = ?', [guild_id])
                     .then(rows => {
                         conn.release();
                         if (rows[0].affectedRows > 0 || rows[0].changedRows > 0)
