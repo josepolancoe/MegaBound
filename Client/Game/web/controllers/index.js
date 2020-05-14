@@ -35,7 +35,7 @@ router.get('/rr', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
     var data = [];
     req.db.connection.getConnection().then(conn => {
-        conn.query('SELECT u.game_id, u.gp, u.rank, g.Name FROM users u LEFT JOIN guild_member m ON m.UserId = u.IdAcc LEFT JOIN guild g ON g.Id = m.Id ORDER BY u.gp DESC limit 0, 29')
+        conn.query('SELECT u.game_id, u.gp, u.rank, g.Name FROM users u LEFT JOIN guild_member m ON m.UserId = u.IdAcc LEFT JOIN guild g ON g.Id = m.Id ORDER BY u.gp DESC limit 0, 60')
             .then(rows => {
                 conn.release();
                 if (rows.length > 0) {
