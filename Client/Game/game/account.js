@@ -774,7 +774,7 @@ module.exports = class Account {
                     if (gamemode=="1") {
                         self.room.game_mode = Types.GAME_MODE.BOSS;
                         self.room.joinOnlyPlayer(self);
-                        self.location_type = Types.LOCATION.ROOM;
+                        // self.location_type = Types.LOCATION.ROOM;
                         self.gameserver.sendRooms();
                     }else if(gamemode=="0"){
                         self.room.game_mode = Types.GAME_MODE.NORMAL;
@@ -1028,10 +1028,21 @@ module.exports = class Account {
                     var _mob = message[1];
                     if (self.room) {
                         if (typeof (Types.MOBILES[_mob]) != 'undefined' && Types.MOBILES[_mob] !== null) {
-                            if (_mob == Types.MOBILE.RANDOM)
+                            if(self.player.gm === 1){
+                                if (_mob == Types.MOBILE.RANDOM)
                                 _mob = Types.MOBILE.DRAGON;
-                            self.player.mobile = _mob;
-                            self.gameserver.pushToRoom(self.room.id, new Message.changedMobile(self));
+                                self.player.mobile = _mob;
+                                self.gameserver.pushToRoom(self.room.id, new Message.changedMobile(self));
+                            }else{
+                                if (_mob == Types.MOBILE.RANDOM)
+                                _mob = Types.MOBILE.KNIGHT;
+                                self.player.mobile = _mob;
+                                self.gameserver.pushToRoom(self.room.id, new Message.changedMobile(self));
+                            }
+                            // if (_mob == Types.MOBILE.RANDOM)
+                            //     _mob = Types.MOBILE.DRAGON;
+                            // self.player.mobile = _mob;
+                            // self.gameserver.pushToRoom(self.room.id, new Message.changedMobile(self));
                         }
                     }
                     break;
@@ -1144,15 +1155,30 @@ module.exports = class Account {
                     }
                     break;
                 }
-            // case Types.CLIENT_OPCODE.game_use_item:
-            //     {
-            //         // seguridad
-            //         if (!self.login_complete) {
-            //             self.connection.close();
-            //             return null;
-            //         }
-            //         break;
-            //     }
+
+            case Types.CLIENT_OPCODE.game_use_item:
+                {
+                    // seguridad
+                    if (!self.login_complete) {
+                        self.connection.close();
+                        return null;
+                    }
+                    let game_use_item = message[1];
+                    if (game_use_item=="0") {
+                        self.sendMessage(new Message.alertResponse("No disponible :(", "DUAL aún no está disponible."));
+                        //items dentro del juego (0 = dual ; 1 =teleport; 2 = dual++)
+                        let item_data = [Types.SERVER_OPCODE.items, [
+                            [-1, -1, 2, -1, 1, -1], -1
+                        ]];
+                        self.send(item_data);
+                    }else if(game_use_item=="2"){
+                        self.sendMessage(new Message.alertResponse("No disponible :(", "DUAL+ aún no está disponible."));
+                    }else{
+                        self.sendMessage(new Message.alertResponse("No disponible :(", "TELEPORT aún no está disponible."));
+                    }
+                    Logger.info('Opcode: ' + Types.getMessageTypeAsString(opcode) + ' data: ' + message);
+                     break;
+                }
 
             case Types.CLIENT_OPCODE.addfriend:
                 {
@@ -1166,6 +1192,17 @@ module.exports = class Account {
                 }
 
                 case Types.CLIENT_OPCODE.quick_join:
+                {
+                    // seguridad
+                    if (!self.login_complete) {
+                        self.connection.close();
+                        return null;
+                    }
+                    self.sendMessage(new Message.alertResponse("No disponible :(", "Estamos trabando en esto"));
+                    break;
+                }
+
+                case Types.CLIENT_OPCODE.delete_avatar:
                 {
                     // seguridad
                     if (!self.login_complete) {

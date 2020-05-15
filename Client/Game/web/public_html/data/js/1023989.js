@@ -13476,7 +13476,7 @@ var io = "undefined" == typeof module ? {} : module.exports;
             DRAG: 19,
             KALSIDDON: 20
         },
-        SELECTABLE_MOBILES = [MOBILE.ARMOR, MOBILE.ICE, MOBILE.ADUKA, MOBILE.LIGHTNING, MOBILE.BIGFOOT, MOBILE.JD, MOBILE.ASATE, MOBILE.RANDOM, MOBILE.KNIGHT, MOBILE.FOX, MOBILE.DRAGON, MOBILE.NAK, MOBILE.TRICO, MOBILE.MAGE, MOBILE.TURTLE, MOBILE.BOOMER, MOBILE.GRUB, MOBILE.RAON,MOBILE.KALSIDDON];
+        SELECTABLE_MOBILES = [MOBILE.ARMOR, MOBILE.ICE, MOBILE.ADUKA, MOBILE.LIGHTNING, MOBILE.BIGFOOT, MOBILE.JD, MOBILE.ASATE, MOBILE.RANDOM, MOBILE.FOX,  MOBILE.NAK, MOBILE.TRICO, MOBILE.MAGE, MOBILE.TURTLE, MOBILE.BOOMER, MOBILE.GRUB, MOBILE.RAON,MOBILE.KALSIDDON];
 
     function GetMobileAfter(a) {
         return SELECTABLE_MOBILES[(SELECTABLE_MOBILES.indexOf(a) + 1) % SELECTABLE_MOBILES.length]
@@ -21509,7 +21509,8 @@ var io = "undefined" == typeof module ? {} : module.exports;
                         crossDomain: !0
                     }).error(function(a) {
                         $("#LoginSubmit").removeClass("grayspin");
-                        alertify.error("Network Error. Try Again.")
+                        // alertify.error("Network Error. Try Again.")
+                        alertify.error("Fuiste Baneado.")
                     })) : alertify.alert(l.t("Please fill password.")) :
                     alertify.alert(l.t("Please fill Email / UserID / Username."))
             }

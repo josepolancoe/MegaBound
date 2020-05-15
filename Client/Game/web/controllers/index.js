@@ -139,21 +139,36 @@ router.post('/ajaxLogin', function (req, res) {
                         .then(function (rows2) {
                             if (rows2[0].length > 0) {
                                 var res1 = rows2[0][0];
-                                req.session.cookie.expires = false;
-                                //req.session.cookie.maxAge = new Date(Date.now() + (60 * 1000 * 10));
-                                req.session.cookie.maxAge = 600000;
-								req.session.account_id = data.Id;
-                                req.session.rank = res1.rank;
-                                req.session.acc_session = data.Session;
-                                req.session.game_id = res1.game_id;
-                                Logger.log("====================");
-                                Logger.log("User: " + res1.game_id);
-                                Logger.log("Rank: " + res1.rank);
-                                res.send(JSON.stringify([data.Id, res1.rank, 0, data.Session, country, 0]));
-                               var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-                              var ipv4= ip.replace(/^.*:/, '')
-                            Logger.log("IP: "+ipv4);
-                            Logger.log("===================="+"\n");
+                                if (res1.unlock==1) {
+                                    req.session.cookie.expires = false;
+                                    req.session.cookie.maxAge = 600000;
+                                    req.session.account_id = data.Id;
+                                    req.session.rank = res1.rank;
+                                    req.session.acc_session = data.Session;
+                                    req.session.game_id = res1.game_id;
+                                    Logger.log("====================");
+                                    Logger.log("User: " + res1.game_id);
+                                    Logger.log("Rank: " + res1.rank);
+                                    Logger.log('ESTAS BANEADO');
+                                    req.session.destroy();
+                                    res.redirect('/');
+                                }else{
+                                    req.session.cookie.expires = false;
+                                    //req.session.cookie.maxAge = new Date(Date.now() + (60 * 1000 * 10));
+                                    req.session.cookie.maxAge = 600000;
+                                    req.session.account_id = data.Id;
+                                    req.session.rank = res1.rank;
+                                    req.session.acc_session = data.Session;
+                                    req.session.game_id = res1.game_id;
+                                    Logger.log("====================");
+                                    Logger.log("User: " + res1.game_id);
+                                    Logger.log("Rank: " + res1.rank);
+                                    res.send(JSON.stringify([data.Id, res1.rank, 0, data.Session, country, 0]));
+                                   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+                                  var ipv4= ip.replace(/^.*:/, '')
+                                Logger.log("IP: "+ipv4);
+                                Logger.log("===================="+"\n");
+                                }
                             } else {
                                 res.send(JSON.stringify([0]));
                             }

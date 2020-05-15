@@ -24,11 +24,6 @@ module.exports = class Room {
 		if (game_mode === 3) {
 		this.game_mode = Types.GAME_MODE.SCORE;
 		}
-        /*if (process.env.vps === '1' || process.env.vps === '2') {
-            this.game_mode = Types.GAME_MODE.NORMAL;
-        } else {
-            this.game_mode = Types.GAME_MODE.BOSS; //game_mode;
-        }*/
         this.gameserver = gameserver;
         this.title = title;
         this.password = password;

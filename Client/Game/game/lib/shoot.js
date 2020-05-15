@@ -48,7 +48,9 @@ module.exports = class Shoot {
             else if (mobile == Types.MOBILE.BIGFOOT)
                 this.damageshot = 100;
             else if (mobile == Types.MOBILE.DRAGON)
-                this.damageshot = 100;
+                this.damageshot = 200;
+            // else if (mobile == Types.MOBILE.DRAGON)
+            //     this.damageshot = 100;
             else if (mobile == Types.MOBILE.TRICO)
                 this.damageshot = 240;
             else if (mobile == Types.MOBILE.TURTLE)
@@ -70,7 +72,9 @@ module.exports = class Shoot {
             else if (mobile == Types.MOBILE.BIGFOOT)
                 this.damageshot = 150;
             else if (mobile == Types.MOBILE.DRAGON)
-                this.damageshot = 150;
+                this.damageshot = 250;
+            // else if (mobile == Types.MOBILE.DRAGON)
+            //     this.damageshot = 150;
             else if (mobile == Types.MOBILE.TRICO)
                 this.damageshot = 150;
             else if (mobile == Types.MOBILE.TURTLE)
@@ -94,7 +98,9 @@ module.exports = class Shoot {
             else if (mobile == Types.MOBILE.BIGFOOT)
                 this.damageshot = 175;
             else if (mobile == Types.MOBILE.DRAGON)
-                this.damageshot = 155;
+                this.damageshot = 310;
+            // else if (mobile == Types.MOBILE.DRAGON)
+            //     this.damageshot = 155;
             else if (mobile == Types.MOBILE.TRICO)
                 this.damageshot = 520;
             else if (mobile == Types.MOBILE.TURTLE)

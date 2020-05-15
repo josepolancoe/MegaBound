@@ -47,7 +47,7 @@ module.exports = class DataBase {
         var self = this;
         return new Promise(function (resolve, reject) {
             self.connection.getConnection().then(conn => {
-                conn.query('SELECT rank, game_id, country FROM users where IdAcc = ?', [id])
+                conn.query('SELECT rank, game_id, `unlock`,country FROM users where IdAcc = ?', [id])
                     .then(rows => {
                         conn.release();
                         if (rows[0].length > 0)
