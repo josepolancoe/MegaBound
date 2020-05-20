@@ -374,6 +374,39 @@ module.exports = class DataBase {
             });
         });
     }
+	//cambiar bg
+    updateGameBgUrlByIdAcc(bg_url, discount, user_id) {
+        var self = this;
+        return new Promise(function (resolve, reject) {
+            self.connection.getConnection().then(conn => {
+                conn.query('UPDATE users SET bg_url = ? WHERE IdAcc = ?', [bg_url, user_id])
+                    .then(rows => {
+                        conn.release();
+                        if (rows[0].affectedRows > 0 || rows[0].changedRows > 0)
+                            return resolve(rows);
+                        else
+                            return reject();
+                    });
+            });
+        });
+    }
+	
+	//cambiar photo
+    updatePhotoUrlByIdAcc(photo_url, user_id) {
+        var self = this;
+        return new Promise(function (resolve, reject) {
+            self.connection.getConnection().then(conn => {
+                conn.query('UPDATE users SET photo_url = ? WHERE IdAcc = ?', [photo_url, user_id])
+                    .then(rows => {
+                        conn.release();
+                        if (rows[0].affectedRows > 0 || rows[0].changedRows > 0)
+                            return resolve(rows);
+                        else
+                            return reject();
+                    });
+            });
+        });
+    }
 
     changeName(nname, account) {
         nname = nname.replace('%', '');
