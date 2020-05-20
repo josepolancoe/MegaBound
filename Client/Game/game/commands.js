@@ -252,6 +252,19 @@ module.exports = class Commands {
                                         }
                                         break;
                                     }
+								case '/vip':
+                                    {
+                                        if (data[1] !== null && data[1].length > 0) {
+                                            cash1.db.connection.getConnection().then(conn => {
+                                                conn.query("UPDATE users SET rank = 31 WHERE game_id='"+ data[1] +"'",function(err, result){
+                                                    self.gameserver.pushBroadcast(new Message.chatResponse(self.account, "'"+data[1]+"' se convirtió en VIP", Types.CHAT_TYPE.SYSTEM));
+                                                }).then(rows => {
+                                                        conn.release();                                       
+                                                    });
+                                            });
+                                        }
+                                        break;
+                                    }
                                     case '/gift':
                                         {
                                             if (data[1] !== null && data[1].length > 0) {
